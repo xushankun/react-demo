@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './headertpl/headertpl.js'
+import Demo from './headertpl/demo.js'
 
 
 // function Welcome(props) {
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
           <Welcome name="shankun" />
+          <Demo></Demo>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Hello World</h1>
