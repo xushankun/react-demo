@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 // 定义组件分两种
 
-// 函数定义
+// 函数定义   【函数定义时  this.props 要换成 props】
 // function Welcome(props) {
 //     return (
 //         <h1>Hello, {props.name}</h1>
@@ -23,7 +23,7 @@ class Welcome extends Component {
     }
     // 当组件输出到 DOM 后会执行 componentDidMount() 钩子
     componentDidMount() {
-        // 注意事项：更新state的值必须使用setState()[类似小程序的data]
+        // 注意事项：更新state的值必须使用setState()[类似小程序的setData]
         this.setState({
             name:'小花'
         });

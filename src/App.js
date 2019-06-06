@@ -2,13 +2,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './headertpl/headertpl.js'
-import Demo from './headertpl/demo.js'
-
-
-// function Welcome(props) {
-//     return <h1>Hello, {props.name}</h1>;
-// }
+import Welcome from './conponents/welcome.js'
+import Demo from './conponents/demo.js'
 
 class App extends Component {
   render() {
