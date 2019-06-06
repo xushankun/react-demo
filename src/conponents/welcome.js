@@ -2,9 +2,11 @@ import React,{ Component } from 'react';
 // 定义组件分两种
 
 // 函数定义   【函数定义时  this.props 要换成 props】
+// 当我们把 Square 修改成函数组件时，我们同时也把 onClick={() => this.props.onClick()} 改成了更短的 onClick={props.onClick}（注意两侧都没有括号）。
+// 执行父组件的方法
 // function Welcome(props) {
 //     return (
-//         <h1>Hello, {props.name}</h1>
+//         <h1 >Hello, {props.name}</h1>
 //     )
 // }
 
@@ -46,9 +48,8 @@ class Welcome extends Component {
             <div>
                 <h1>我是组件内部state定义的name： {this.state.name}</h1>
                 <h1>我是来自父组件的props的name：{this.props.name}</h1>
-                <h2>{this.state.tips}</h2>
-
-                <button onClick={this.clickBtn}>{this.state.btnState ? '开' : '关'}</button>
+                {/*<h2>{this.state.tips}</h2>*/}
+                {/*<button onClick={this.clickBtn}>{this.state.btnState ? '开' : '关'}</button>*/}
             </div>
         )
     }
