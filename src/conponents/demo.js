@@ -19,7 +19,7 @@ class Demo extends Component{
 
 
                 <h1>上次看到</h1>
-                <a href="https://react.docschina.org/docs/lists-and-keys.html" target='_blank'>列表 & Keys</a>
+                {/*<a href="https://react.docschina.org/docs/lists-and-keys.html" target='_blank'>列表 & Keys</a>*/}
             </div>
         );
     }
