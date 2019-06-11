@@ -1,14 +1,18 @@
 import React,{ Component } from 'react';
 import Demo from "../conponents/demo";
-import { Button } from 'antd';
+import { Button ,Message} from 'antd';
+
 
 class pageA extends Component{
+    info () {
+        Message.info('This is a normal message');
+    };
     render () {
         return (
             <div>
                 <h1>我是组件pageA</h1>
                 <Demo></Demo>
-                <Button type="primary">Antd 按钮</Button>
+                <Button type="primary" onClick={this.info}>Antd 按钮</Button>
             </div>
         );
     }

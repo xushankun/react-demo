@@ -7,6 +7,7 @@ import PageB from "./pages/pageB";
 import PageC from "./pages/pageC";
 // 路由
 const getRouter = () => (
+    // 组件渲染的地方
     <Switch>
         <Route exact path="/" component={PageA} />
         <Route path="/pageb" component={PageB} />

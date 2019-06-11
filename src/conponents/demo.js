@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-
+import { Message} from 'antd';
 class Demo extends Component{
     constructor() {
         super();
@@ -8,7 +8,7 @@ class Demo extends Component{
 
     preventPop(name,name2,e){    //使用bind时，事件对象e要放在最后
         e.preventDefault();
-        alert(name + name2);
+        Message.info(name + name2);
     }
     render () {
         return (
