@@ -1,20 +1,16 @@
 import React from 'react';
-
 import { Route, Switch } from 'react-router-dom';
 
-
 // 引入页面
-import Home from "./conponents/subPage/home";
-import Children from "./conponents/subPage/children";
-import ChildrenTwo from "./conponents/subPage/childrenTwo";
-
+import PageA from "./pages/pageA";
+import PageB from "./pages/pageB";
+import PageC from "./pages/pageC";
 // 路由
 const getRouter = () => (
     <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/children1" component={Children} />
-        <Route path="/children2/:id" component={ChildrenTwo} />
+        <Route exact path="/" component={PageA} />
+        <Route path="/pageb" component={PageB} />
+        <Route path="/pagec/:id" component={PageC} />
     </Switch>
 );
-
 export default getRouter;

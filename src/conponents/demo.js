@@ -17,9 +17,6 @@ class Demo extends Component{
                 1.<a href="https://reactjs.org" onClick={(e) => this.preventPop(this.state.name,this.state.name2,e)}>箭头函数写法Click1</a>推荐使用箭头函数<br/>
                 2.<a href="https://reactjs.org" onClick={this.preventPop.bind(this,this.state.name,this.state.name2)}>bind写法Click2</a><br/>
 
-
-                <h1>上次看到</h1>
-                {/*<a href="https://react.docschina.org/docs/lists-and-keys.html" target='_blank'>列表 & Keys</a>*/}
             </div>
         );
     }
