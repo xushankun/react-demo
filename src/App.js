@@ -5,7 +5,6 @@ import './App.css';
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import getRouter from './router';
 
-
 import { Layout, Menu, Icon } from 'antd';
 const { Header, Sider, Content } = Layout;
 
@@ -48,6 +47,12 @@ class App extends Component {
                         <Link to="/pagec/12345654321">
                             <Icon type="idcard" />
                             <span>pageC</span>
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key="4">
+                        <Link to="/todos">
+                            <Icon type="idcard" />
+                            <span>todos</span>
                         </Link>
                     </Menu.Item>
                 </Menu>
