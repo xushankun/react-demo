@@ -1,5 +1,4 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-# test
 
 # create-react-app 使用详解
 [https://www.cnblogs.com/axl234/p/8328612.html](https://www.cnblogs.com/axl234/p/8328612.html)
