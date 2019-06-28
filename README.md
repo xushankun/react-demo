@@ -1,9 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-##   123456 随便说点什么
-
-
 # create-react-app 使用详解
 [https://www.cnblogs.com/axl234/p/8328612.html](https://www.cnblogs.com/axl234/p/8328612.html)
 
