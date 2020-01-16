@@ -49,12 +49,6 @@ class App extends Component {
                             <span>pageC</span>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="4">
-                        <Link to="/todos">
-                            <Icon type="idcard" />
-                            <span>todos</span>
-                        </Link>
-                    </Menu.Item>
                 </Menu>
             </Sider>
             <Layout>

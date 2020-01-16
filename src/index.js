@@ -3,16 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import { Provider } from 'react-redux'
-import { createStore } from 'redux'
-import todoApp from './store/reducers'
-
-let store = createStore(todoApp) // 注册监听器
 // 渲染app组件到public/index.html 的 id为root的div【我们将其称为根DOM节点，开发应用时一般只会定义一个根节点】
-ReactDOM.render(
-       <Provider store={store}>
-           <App />
-       </Provider>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // 如果你想让你的应用离线运行并更快地加载，你可以在下面把unregister（）改为register（）
 // If you want your app to work offline and load faster, you can change
