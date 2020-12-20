@@ -9,7 +9,6 @@
 
 ## 关于Redux
 [Redux中文文档](https://cn.redux.js.org/docs/introduction/Motivation.html)
-
 ## 环境区分
 - .env.development.local【开发环境配置】
 - .env.production.local【生产环境配置】
@@ -17,4 +16,4 @@
 ## 其它【待学习】
 - Antd【UI框架】
 - 路由优化【router.js提取】
-- React Hooks使用【局部状态管理】
+- [React Hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)使用【局部状态管理】

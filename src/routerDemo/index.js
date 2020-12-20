@@ -4,8 +4,7 @@ import {
     HashRouter as Router,
     Switch,
     Route,
-    Link,
-    useParams
+    Link
 } from "react-router-dom";
 export default function BasicExample() {
 
