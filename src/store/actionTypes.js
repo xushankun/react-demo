@@ -1,4 +1,7 @@
-// action的type常量
-export const CHANGE_INPUT = "CHANGE_INPUT";
-export const ADD_TODO = "ADD_TODO";
-export const DEL_TODO = "DEL_TODO";
+const types = {
+    CHANGE_INPUT_VLAUE: 'change_input_value',
+    BTN_CLICK: 'btn_click',
+    LIST_DEL: 'list_del'
+}
+
+export default types;

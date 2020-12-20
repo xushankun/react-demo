@@ -1,23 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React+react-router-dom+redux+axios项目搭建【满足基本开发】
+- create-react-app
+- react-router-dom【react路由】
+- node-sass【新的create-react-app要求版本为小于v5,否则报错，所以这里固定安装版本号4.14.1】
+- normalize.css【统一不同浏览器的差异】
+- redux & react-redux 【状态管理，后面有空结合Hooks】[参考](https://www.cnblogs.com/sgs123/archive/2004/01/13/14077698.html)
+- http-proxy-middleware【API接口跨域代理】
+- [axios](http://www.axios-js.com/)【易用、简洁且高效的http库】
 
-# create-react-app 使用详解
-[https://www.cnblogs.com/axl234/p/8328612.html](https://www.cnblogs.com/axl234/p/8328612.html)
+## 关于Redux
+[Redux中文文档](https://cn.redux.js.org/docs/introduction/Motivation.html)
 
+## 环境区分
+- .env.development.local【开发环境配置】
+- .env.production.local【生产环境配置】
 
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
- 在交互监视模式下启动测试运行程序
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 其它【待学习】
+- Antd【UI框架】
+- 路由优化【router.js提取】
+- React Hooks使用【局部状态管理】
